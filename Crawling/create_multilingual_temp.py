@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 # Configure paths
-TRANSLATION_FUNCTIONS_PATH = "/home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Py/Transliteration/transliteration"
+TRANSLATION_FUNCTIONS_PATH = "/home/zaya/Downloads/Zayas/ZayasTransliteration/transliteration"
 sys.path.append(TRANSLATION_FUNCTIONS_PATH)
 try:
     from translationFunctions import translate_text
@@ -173,8 +173,8 @@ class HTMLTranslator:
 if __name__ == "__main__":
     translator = HTMLTranslator()
     
-    html_path = Path("/home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Zaya/CRM/Documentation/Emails/Psychoanalysis.html")
-    output_path = Path("/home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Zaya/CRM/Documentation/Emails/Psychoanalysis.yaml")
+    html_path = Path("/home/zaya/Downloads/Zayas/zayasCRM/Documentation/Emails/Psychoanalysis.html")
+    output_path = Path("/home/zaya/Downloads/Zayas/zayasCRM/Documentation/Emails/Psychoanalysis.yaml")
     
     if not html_path.exists():
         logging.error(f"HTML file not found at {html_path}")

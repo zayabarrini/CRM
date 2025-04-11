@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # Configure paths
-template_path = Path("/home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Zaya/CRM/Documentation/Emails/Psychoanalysis.yaml")
-CSS_PATH = Path("/home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Zaya/CRM/Documentation/Emails/styles.css")
+template_path = Path("/home/zaya/Downloads/Zayas/zayasCRM/Documentation/Emails/Psychoanalysis.yaml")
+CSS_PATH = Path("/home/zaya/Downloads/Zayas/zayasCRM/Documentation/Emails/styles.css")
 
 # Configure logging
 logging.basicConfig(
