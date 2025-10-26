@@ -40,8 +40,8 @@ def extract_emails(url):
 current_time = datetime.datetime.now()
 time_string = current_time.strftime("%Y-%m-%d_%H-%M-%S")
 # Read URLs from a CSV file
-input_csv = "/home/zaya/Downloads/websites.csv"  # Input CSV file with a header called "website"
-output_csv = f"/home/zaya/Downloads/emails-b4s_{time_string}.csv"  # Output CSV file with timestamp
+input_csv = "/home/zaya/Downloads/Barcelona.csv"  # Input CSV file with a header called "website"
+output_csv = f"/home/zaya/Downloads/Barcelona-emails-b4s_{time_string}.csv"  # Output CSV file with timestamp
 
 # Open CSV file in write mode
 with open(output_csv, mode="w", newline="", encoding="utf-8") as file:

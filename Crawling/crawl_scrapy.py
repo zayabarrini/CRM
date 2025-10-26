@@ -33,7 +33,7 @@ class EmailSpider(scrapy.Spider):
         # Generate timestamp for output file
         current_time = datetime.datetime.now()
         time_string = current_time.strftime("%Y-%m-%d_%H-%M-%S")
-        self.output_file = f"/home/zaya/Downloads/emails_{time_string}.csv"
+        self.output_file = f"/home/zaya/Downloads/Crawl_emails_{time_string}.csv"
         
         self.custom_settings = {
             "FEEDS": {
@@ -66,7 +66,7 @@ class EmailSpider(scrapy.Spider):
     def start_requests(self):
         try:
             with time_limit(10):  # Timeout for reading the input file
-                with open("/home/zaya/Downloads/websites.csv", newline="", encoding="utf-8") as csvfile:
+                with open("/home/zaya/Downloads/Barcelona.csv", newline="", encoding="utf-8") as csvfile:
                     reader = csv.DictReader(csvfile)
                     for row in reader:
                         if time.time() - self.start_time > self.max_runtime:

@@ -1,8 +1,9 @@
+# Contatos
+
 Calle de Santa Perpètua, 10-12, Bajos
 08012 Barcelona
 Tel. 934 121 489
 secretaria@scb-icf.net
-
 
 Insituto Del Campo Freudiano Europa
 Sección Clínica de Barcelona
@@ -30,11 +31,9 @@ Dirección: Soledad Bertran
 Comité de edición: Natalí Boghossian, Cecilia Espejo, Luciana Fracchia, Héctor García, Adriana Meza, Jorge Pérez, Claudia Rivas, Lucrecia Rocchetti, María Touza.
 
 Nuestra sede
- Direccion: C/ Santa Perpètua, 10-12, bajos, 08012, Barcelona
- Teléfono: [+34] 932 075 619
- Email: revistafreudiana@gmail.com
-
-
+Direccion: C/ Santa Perpètua, 10-12, bajos, 08012, Barcelona
+Teléfono: [+34] 932 075 619
+Email: revistafreudiana@gmail.com
 
 How should I produce a strategy to work on getting a social network, relationships, customers, partnerships - increase Business valuation
 
