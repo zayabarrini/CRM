@@ -1,3 +1,4 @@
+```
 ├── Crawling
 │   ├── clean_scrapy.py
 │   ├── crawl_beautiful_soup.py
@@ -20,6 +21,7 @@
     ├── crawl_instagram.py
     ├── crawl_linkedin.py
     └── crawl_twitter.py
+```
 
 This **CRM Project** is a comprehensive, semi-automated system for building relationships, managing outreach, and growing a business network across **psychoanalysis, cinema, entrepreneurship, and relocation strategy** (e.g., to Barcelona or Mallorca). Here's a breakdown of its structure and how each part contributes to your goal:
 
